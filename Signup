@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare-Clinic Management System</title>
+    <link rel="stylesheet" href="cms.css">
+</head>
+<body class="signup">
+    <div class="divtag1">
+        <img src="https://media.gettyimages.com/id/1990943278/photo/empty-doctors-office-in-a-large-hospital-no-people.jpg?s=612x612&w=gi&k=20&c=d0zIQ_WhvZSbDzo1_RWuLp5DR0wTY2MsT-xITHG5Zmo=" width="40">
+    </div><br>
+    <center><h2>HealthCare-Clinic Management System</h2>
+    <h2>Login/Signup</h2>
+    </center><br>
+    <center>
+    Fields:<input type="Field" id="Field"><br>
+    Full Name:<input type="name" id="name"><br>
+    Email:<input type="Email" id="username"><br>
+    password:<input type="password" id="password"><br>
+    Confirm password:<input type="password" id="Confirmpassword"><br>
+    Contact number:<input type="number" id="number"><br>
+    <button onclick="signup()">Signup</button>
+    <button onclick="signup()">Login</button><br>
+    </center>
+    <footer class="footer">
+        Copyright @ 2026 HealthCare
+    </footer>
+</body>
+<script src="cms.js"></script>
+</html>
